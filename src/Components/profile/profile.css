@@ -10,10 +10,10 @@
 }
 .profile_name {
   line-height: 18px;
-  padding: 20px;
+  padding: auto;
 }
 .profile_name .name {
-  font-size: 20px;
+  font-size: auto;
   font-weight: bold;
   padding-bottom: 10px;
 }
@@ -23,21 +23,18 @@
 }
 .profile_image {
   margin-top: 40px;
-  margin-left: 350px;
-  width: 100%;
+  text-align: center;
 }
 .profile_image img {
-  height: 350px;
-  width: 350px;
+  height: auto;
+  width: auto;
 }
-.profile-container-shadow {
-}
+
 .profile-container-shadow .btn1 {
   width: 100%;
   display: flex !important;
   justify-content: center;
   padding-top: -5px;
-  margin-left: -160px;
   margin-bottom: -5px;
 }
 .profile_name {

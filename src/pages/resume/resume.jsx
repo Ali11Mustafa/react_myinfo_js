@@ -19,7 +19,7 @@ import Video from "../../Components/video/video.mp4";
 
 export default function Resume() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <div>
@@ -42,13 +42,13 @@ export default function Resume() {
         </Grid>
         <Grid item xs={12}>
           <Grid container>
-            <Grid item sm={12} md={6} data-aos="flip-right">
+            <Grid item sm={12} md={6} data-aos="zoom-in">
               <Custom
                 icon={<WorkIcon></WorkIcon>}
                 title="work Experince"
               ></Custom>
             </Grid>
-            <Grid item sm={12} md={6} data-aos="flip-left">
+            <Grid item sm={12} md={6} data-aos="fade-right">
               <Custom
                 icon={<SchoolIcon></SchoolIcon>}
                 title="Education"
