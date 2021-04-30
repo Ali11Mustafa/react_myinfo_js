@@ -1,41 +1,31 @@
-.skill{
-    border-radius: 8px;
-    padding: 20px;
-    min-height: 186px;
-    text-align: center;
-    margin-right: 5px !important;
-    box-shadow: 0px 0px 48px 0px rgb(4,6,4,0.08) !important ;
-
+.skill {
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 186px;
+  text-align: center;
+  margin-right: 5px !important;
+  box-shadow: 0px 0px 48px 0px rgb(4, 6, 4, 0.08) !important ;
 }
-.skill .skill_title{
-    font-size: 20px !important;
-    font-weight: 500px !important;
-    line-height: 35px !important;
-
+.skill .skill_title {
+  font-size: 20px !important;
+  font-weight: 500px !important;
+  line-height: 35px !important;
 }
-.skill .skil-description{
-    display: flex;
-    align-items: center;
-    color: #989898 !important;
-    font-weight: 400;
-    line-height: 18px;
-
-
-
+.skill .skil-description {
+  display: flex;
+  align-items: center;
+  color: #989898 !important;
+  font-weight: 400;
+  line-height: 18px;
 }
-.skill .skil-description .timeline_dot{
-    border-color: var(--myc) !important;
-    padding: 2px !important;
-    margin-right: 5px !important;
-
+.skill .skil-description .timeline_dot {
+  border-color: var(--myc) !important;
+  padding: 2px !important;
+  margin-right: 5px !important;
 }
-.gryabg{
-    background-color: #fafafa;
+.gryabg {
+  background-color: #fafafa;
 }
-.p-50{
-    padding: 50px !important;
+.p-50 {
+  padding: 50px !important;
 }
-
-
-
-
