@@ -85,3 +85,8 @@
   line-height: 92px;
   white-space: pre-line;
 }
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}

@@ -9,6 +9,7 @@ import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import Button from "../button/button";
 import GetAppIcon from "@material-ui/icons/GetApp";
+// Some random colors
 
 function CustomTimelineitems({ title, text, link }) {
   <TimelineItem>
