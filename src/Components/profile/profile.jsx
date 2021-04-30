@@ -43,6 +43,7 @@ function profile() {
 
       <div className="profile_informati">
         <CustomTimeline
+          className="a"
           icon={<PersonIcon className="PersonIcon" />}
           title={Data.title}
         >
