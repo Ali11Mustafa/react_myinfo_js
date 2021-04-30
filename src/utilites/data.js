@@ -122,7 +122,7 @@ export default {
     {
       tag: "React",
       image:
-        "https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg",
+        "https://www.mindinventory.com/blog/wp-content/uploads/2017/08/reactjs-1024x512.jpg",
       title: "project1",
       description: "this is my portfolio",
       caption: "a shot description of the project",
@@ -135,7 +135,7 @@ export default {
     {
       tag: "javascript",
       image:
-        "https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg",
+        "https://res.cloudinary.com/practicaldev/image/fetch/s--ohpJlve1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/drquzbncy/image/upload/v1586605549/javascript_banner_sxve2l.jpg",
       title: "project2",
       caption: "a shot description of the project",
 
@@ -152,7 +152,7 @@ export default {
     {
       tag: "java",
       image:
-        "https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg",
+        "https://www.ptc.com/-/media/Images/new-org/750x500/products/AdobeStock_292835773-java-750x500.png",
       title: "project3",
       description: "this is my portfolio",
       caption: "a shot description of the project",
@@ -166,7 +166,7 @@ export default {
     {
       tag: "java1",
       image:
-        "https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg",
+        "https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.jpg",
       title: "project4",
       description: "this is my portfolio",
       caption: "a shot description of the project",
