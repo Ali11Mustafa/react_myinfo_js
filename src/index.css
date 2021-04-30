@@ -13,7 +13,6 @@ body {
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #2d2d33;
   animation: slide 10s infinite;
 }
 
