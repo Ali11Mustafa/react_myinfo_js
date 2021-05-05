@@ -2,7 +2,11 @@ import { Grid, Icon, Paper, TextField, Typography } from "@material-ui/core";
 import React from "react";
 import "./resume.css";
 import Data from "../../utilites/data";
-import { CustomTimeline1, Custom } from "../../Components/timeline/timeline";
+import {
+  CustomTimeline1,
+  Custom,
+  Custom1,
+} from "../../Components/timeline/timeline";
 import WorkIcon from "@material-ui/icons/Work";
 import Timeline from "@material-ui/lab/Timeline";
 import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
@@ -49,38 +53,12 @@ export default function Resume() {
               ></Custom>
             </Grid>
             <Grid item sm={12} md={6} data-aos="fade-right">
-              <Custom
+              <Custom1
                 icon={<SchoolIcon></SchoolIcon>}
                 title="Education"
-              ></Custom>
+              ></Custom1>
             </Grid>
           </Grid>
-        </Grid>
-      </Grid>
-
-      <Grid container className="section  pb-45">
-        <Grid item className="section_title mb-30">
-          <span></span>
-          <h6 className="section_title_text">services</h6>
-        </Grid>
-      </Grid>
-      <Grid item xs={12}>
-        <Grid container spacing={3} justify="space-around">
-          {Data.services.map((ser) => (
-            <Grid item xs={12} sm={6} md={3}>
-              <div className="services">
-                <Icon className="service-icon" varient="h6">
-                  {ser.icon}
-                </Icon>
-                <Typography className="service-title" variant="h6">
-                  {ser.title}
-                </Typography>
-                <Typography variant="body2" className="service-description">
-                  {ser.description}
-                </Typography>
-              </div>
-            </Grid>
-          ))}
         </Grid>
       </Grid>
 
@@ -136,36 +114,6 @@ export default function Resume() {
               </Grid>
               <Grid item xs={12}>
                 <CustomButton text="submit"></CustomButton>
-              </Grid>
-            </Grid>
-          </Grid>
-        </Grid>
-      </Grid>
-      <Grid item xs={12} lg={5} classNam="b">
-        <Grid container>
-          <Grid item className="section_title mb-30">
-            <span></span>
-            <h6 className="section_title_text">contact info</h6>
-          </Grid>
-          <Grid item xs={12}>
-            <Grid container spacing={2}>
-              <Grid item>
-                <Typography className="contactinfo_item">
-                  <span>Address:</span>
-                  {Data.address}
-                </Typography>
-              </Grid>
-              <Grid item>
-                <Typography className="contactinfo_item">
-                  <span>Address:</span>
-                  {Data.address}
-                </Typography>
-              </Grid>
-              <Grid item>
-                <Typography className="contactinfo_item">
-                  <span>Address:</span>
-                  {Data.address}
-                </Typography>
               </Grid>
             </Grid>
           </Grid>

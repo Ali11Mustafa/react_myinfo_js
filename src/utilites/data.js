@@ -46,35 +46,34 @@ export default {
     },
   },
   about:
-    "Started earnest brother believe an exposed so.Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow\n\n plate.Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water\n court fat. Her bachelor honoured perceive securing but desirous ham required. Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and yourself. Besides ye country on observe. She continue appetite endeavor she judgment interest the met. For she surrounded motionless fat resolution may.",
+    "I’m Ali Mustafa, undergraduate college student from koya university currently studying software engineering with big interest in software development to make impact on what I work on and always look for opportunities to take my skills to the next level.",
   experines: [
     {
-      title: "worrk1",
-      data: "22-8-2012",
+      title: "Re:coded",
       desciption:
-        "i was worked as an english translater for a worki was worked as an\n english translater for a work",
+        "More than four months in studying react js and implementing all the concepts through a capstone project in agile environment.",
     },
     {
-      title: "worrk1",
-      data: "22-8-2012",
+      title: "gaza sky for geeks",
+
       desciption:
-        "i was worked as an english translater for a work\ni was worked as an english translater for a work",
+        "Freelancer training for youth people and prepare them for digital economy.",
     },
     {
-      title: "worrk1",
-      data: "22-8-2012",
-      desciption: "i was worked as an english translater for a work",
+      title: "English languages translator. ",
+      desciption:
+        "Volunteer in an organization and was responsible for translation from English to Kurdish and opposite",
     },
   ],
   Education: [
     {
       title: "koya university",
-      data: "22-8-2012",
-      desciption: "i was worked as an english translater for koya university",
+      data: "2018-present",
+      desciption: "Doing my bachelor’s degree in software engineering ",
     },
     {
       title: "bnari handren",
-      data: "22-8-2012",
+      data: "aka",
       desciption: "i was worked as an english translater for bnari handren",
     },
     {
@@ -103,7 +102,14 @@ export default {
   skills: [
     {
       title: "Front-end",
-      descroption: ["React js", "boostrapt", "sass", "vue js", "javascript"],
+      descroption: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "javascript",
+        "React js",
+        "material ui",
+      ],
     },
     {
       title: "Database",
@@ -111,11 +117,7 @@ export default {
     },
     {
       title: "source control",
-      descroption: ["Git", "Github", "Agile"],
-    },
-    {
-      title: "source control",
-      descroption: ["Git", "Github", "Agile"],
+      descroption: ["Git", "Github"],
     },
   ],
   portfolio: [

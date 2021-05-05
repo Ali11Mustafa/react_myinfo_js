@@ -142,8 +142,7 @@ export const Custom = ({ title, icon }) => {
           <Typography variant="h6" className="timeline-header">
             <Typography>{Data.experines[0].title}</Typography>
             <br></br>
-            {Data.experines[0].data}
-            <br></br>
+
             {Data.experines[0].desciption}
           </Typography>
         </TimelineContent>
@@ -179,6 +178,38 @@ export const Custom = ({ title, icon }) => {
               <br></br>
               {Data.experines[2].desciption}
             </Typography>
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
+    </Timeline>
+  );
+};
+export const Custom1 = ({ title, icon }) => {
+  return (
+    <Timeline className="timelineself">
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot>{icon}</TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Typography variant="h6" className="timeline-header">
+            {title}
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem className="a">
+        <TimelineSeparator>
+          <TimelineDot></TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Typography variant="h6" className="timeline-header">
+            <Typography>{Data.Education[0].title}</Typography>
+            <br></br>
+            {Data.Education[0].data}
+            <br></br>
+            {Data.Education[0].desciption}
           </Typography>
         </TimelineContent>
       </TimelineItem>
