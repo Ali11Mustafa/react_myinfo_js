@@ -8,7 +8,7 @@
 }
 .header .header_link {
   font-weight: 500;
-  color: darkslategray !important;
+  color: white !important;
 }
 .header .header_navlink {
   padding: 0;
@@ -21,7 +21,7 @@
 }
 .header .header_link_active {
   font-weight: 500;
-  color: #05a18d !important;
+  color: rgb(51, 50, 50) !important;
 }
 
 .header .header_right {
