@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import "./profile.css";
-import im from "./e0c8b93f-c246-46e8-9db2-ec0cb01ec9eb-ea635e36-37b0-43cb-82a4-bf7459ae81fa-v1.png";
+import im from "./undraw_startup_life_2du2.svg";
 import CustomTimeline, { CustomTimeline1 } from "../timeline/timeline";
 import Data from "../../utilites/data";
 import PersonIcon from "@material-ui/icons/EmojiEmotionsSharp";
@@ -38,9 +38,8 @@ function profile() {
         <Typography className="name">{"I am Ali✋"}</Typography>
         <Typography className="title">{"web devloper💻"}</Typography>
       </div>
-      <figure className="profile_image">
-        <img src={im} alt=""></img>
-      </figure>
+
+      <img className="profile_image img-fluid" src={im} alt=""></img>
 
       <div className="profile_informati">
         <CustomTimeline
