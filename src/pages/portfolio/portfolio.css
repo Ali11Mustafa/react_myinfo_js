@@ -11,6 +11,7 @@
 .custom_tabs .custom_tabs_item {
   padding: 7px;
   padding-right: 10px;
+  margin-left: -5px;
 }
 .custom_card {
   height: 100%;
