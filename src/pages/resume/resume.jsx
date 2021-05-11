@@ -47,10 +47,7 @@ export default function Resume() {
         <Grid item xs={12}>
           <Grid container>
             <Grid item sm={12} md={6} data-aos="zoom-in">
-              <Custom
-                icon={<WorkIcon></WorkIcon>}
-                title="work Experince"
-              ></Custom>
+              <Custom icon={<WorkIcon></WorkIcon>} title=" Experince"></Custom>
             </Grid>
             <Grid item sm={12} md={6} data-aos="fade-right">
               <Custom1
