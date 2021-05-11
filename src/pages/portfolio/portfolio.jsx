@@ -26,7 +26,7 @@ function Portfolio() {
 
   const projectdialog1 = () => {};
   return (
-    <Grid container className="section pb-45 pt-45 mb-20" spacing={2}>
+    <Grid container className="section pb-45 pt-45 mb-20">
       <Grid item className="section_title mb-30">
         <span></span>
         <h6 className="section_title_text">Portfolio</h6>
