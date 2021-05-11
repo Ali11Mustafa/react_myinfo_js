@@ -9,6 +9,10 @@ import TimelineIcon from "@material-ui/icons/Timeline";
 import WebAssetIcon from "@material-ui/icons/WebAsset";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import HttpIcon from "@material-ui/icons/Http";
+import im from "../assests/images/Screenshot 2021-05-11 214142.png";
+import im2 from "../assests/images/Screenshot 2021-05-11 221205.png";
+import im3 from "../assests/images/Screenshot 2021-05-11 221908.png";
+import im4 from "../assests/images/pic.png";
 
 export default {
   name: "Ali",
@@ -21,26 +25,22 @@ export default {
     "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
   socials: {
     facebook: {
-      link:
-        "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
+      link: "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
       text: "Ali Mustafa",
       icon: <FacebookIcon />,
     },
     twiter: {
-      link:
-        "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
+      link: "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
       text: "twiiter",
       icon: <TwitterIcon />,
     },
     github: {
-      link:
-        "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
+      link: "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
       text: "github",
       icon: <GitHubIcon />,
     },
     Linkdin: {
-      link:
-        "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
+      link: "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
       text: "Linkdin",
       icon: <LinkedInIcon />,
     },
@@ -123,61 +123,57 @@ export default {
   portfolio: [
     {
       tag: "React",
-      image:
-        "https://www.mindinventory.com/blog/wp-content/uploads/2017/08/reactjs-1024x512.jpg",
-      title: "project1",
-      description: "this is my portfolio",
-      caption: "a shot description of the project",
+      image: im,
+      title: "paw-five",
+      description:
+        "Paw-five which is an online, searchable database of pets who need homes in react js and firebase",
+      caption:
+        "Paw-five which is an online, searchable database of pets who need homes in react js and firebase",
       links: [
-        { link: "https://www.google.com", icon: <YouTubeIcon /> },
-        { link: "https://www.google.com", icon: <HttpIcon /> },
-        { link: "https://www.google.com", icon: <GitHubIcon /> },
+        {
+          link: "https://paw-five.ml/ ",
+          icon: <HttpIcon />,
+        },
+        {
+          link: "https://github.com/ReCoded-Org/capstone-iraq-rct-paw-five",
+          icon: <GitHubIcon />,
+        },
       ],
     },
     {
       tag: "javascript",
-      image:
-        "https://res.cloudinary.com/practicaldev/image/fetch/s--ohpJlve1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/drquzbncy/image/upload/v1586605549/javascript_banner_sxve2l.jpg",
-      title: "project2",
-      caption: "a shot description of the project",
+      image: im2,
+      title: "dyanmic clock in javascript",
+      caption: "a very dynamic clack using vanilla javascript and easiljs   ",
 
-      description: "this is my portfolio",
+      description: "a very dynamic clack using vanilla javascript and easiljs ",
       links: [
-        { link: "https://www.google.com", icon: <YouTubeIcon /> },
-        { link: "https://www.google.com", icon: <HttpIcon /> },
+        { link: "https://dynamic-clockbyali.netlify.app/", icon: <HttpIcon /> },
         {
-          link: "https://dynamic-clockbyali.netlify.app/",
+          link: "https://github.com/Ali-mustafa8/dynamiclock/blob/main/index.html",
           icon: <GitHubIcon />,
         },
       ],
     },
     {
       tag: "java",
-      image:
-        "https://www.ptc.com/-/media/Images/new-org/750x500/products/AdobeStock_292835773-java-750x500.png",
-      title: "project3",
-      description: "this is my portfolio",
-      caption: "a shot description of the project",
+      image: im3,
 
-      links: [
-        { link: "https://www.google.com", icon: <YouTubeIcon /> },
-        { link: "https://www.google.com", icon: <HttpIcon /> },
-        { link: "https://www.google.com", icon: <GitHubIcon /> },
-      ],
+      title: "wordpress website",
+      description: "this is my portfolio",
+      caption:
+        "developing user interface of etikmart webiste and fix some bugs",
+
+      links: [{ link: "https://etikmart.com/", icon: <HttpIcon /> }],
     },
     {
       tag: "java1",
-      image:
-        "https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.jpg",
+      image: im4,
       title: "project4",
       description: "this is my portfolio",
-      caption: "a shot description of the project",
+      caption: "koya university swimmng pool booking system in php and mysql",
 
-      links: [
-        { link: "https://www.google.com", icon: <YouTubeIcon /> },
-        { link: "https://www.google.com", icon: <HttpIcon /> },
-        { link: "https://www.google.com", icon: <GitHubIcon /> },
-      ],
+      links: [],
     },
   ],
 };
