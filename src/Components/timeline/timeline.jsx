@@ -147,7 +147,7 @@ export const Custom = ({ title, icon }) => {
           </Typography>
         </TimelineContent>
       </TimelineItem>
-      <TimelineItem>
+      <TimelineItem className="a">
         <TimelineSeparator>
           <TimelineDot></TimelineDot>
           <TimelineConnector />
@@ -164,7 +164,7 @@ export const Custom = ({ title, icon }) => {
           </Typography>
         </TimelineContent>
       </TimelineItem>
-      <TimelineItem>
+      <TimelineItem className="a">
         <TimelineSeparator>
           <TimelineDot></TimelineDot>
           <TimelineConnector />
