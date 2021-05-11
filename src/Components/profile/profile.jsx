@@ -34,13 +34,11 @@ function CustomTimelineitems({ title, text, link }) {
 function profile() {
   return (
     <div className="profile-container-shadow">
-      {/** <div className="profile_name">
+      <div className="profile_name">
         <Typography className="name">{"I am Ali✋"}</Typography>
         <Typography className="title">{"web devloper💻"}</Typography>
-      </div>*/}
-
+      </div>
       <img className="profile_image img-fluid" src={im} alt=""></img>
-
       <div className="profile_informati">
         <CustomTimeline
           className="a"
