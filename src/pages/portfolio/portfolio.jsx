@@ -29,7 +29,7 @@ function Portfolio() {
     <Grid container className="section pb-45 pt-45 mb-20">
       <Grid item className="section_title mb-30">
         <span></span>
-        <h6 className="section_title_text">Portfolio</h6>
+        <h6 className="section_title_text">projects</h6>
       </Grid>
       <Grid item xs={12}>
         <Tabs
@@ -40,22 +40,7 @@ function Portfolio() {
             settabvalue(newValue);
           }}
         >
-          <Tab
-            label="All"
-            value="All"
-            className={
-              tabvalue == "All" ? "custom_item active" : "custom_tabs_item"
-            }
-          />
-          {[...new Set(Data.portfolio.map((item) => item.tag))].map((tag) => (
-            <Tab
-              label={tag}
-              value={tag}
-              className={
-                tabvalue == tag ? "custom_item active" : "custom_tabs_item"
-              }
-            ></Tab>
-          ))}
+          ))
         </Tabs>
       </Grid>
       <Grid item xs={12}>
