@@ -4,9 +4,6 @@
 .timelineself .timeline_header {
   padding-top: 7px;
 }
-.a {
-  margin-left: 12px;
-}
 
 .timelineself .timeline_firstitem {
   min-height: 0px !important;
@@ -55,8 +52,6 @@
 .profile_information {
   top: 0;
   left: 0;
-  margin: -60px 10px 30px;
-  margin-left: 220px;
   margin-top: -10px;
 }
 .sp1 {
