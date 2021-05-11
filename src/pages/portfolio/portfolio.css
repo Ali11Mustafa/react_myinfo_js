@@ -2,13 +2,15 @@
   color: var(--myc);
 }
 .custom_tabs .custom_tabs_item {
-  padding: 0px !important;
   min-width: 0px !important;
-  margin-right: 20px !important;
   text-transform: inherit !important;
   font-size: 14px !important;
   font-weight: 400 !important;
   outline-width: 0px !important;
+}
+.custom_tabs .custom_tabs_item {
+  padding: 7px;
+  padding-right: 10px;
 }
 .custom_card {
   height: 100%;
@@ -34,8 +36,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .projectdialog .projectdialog_image {
