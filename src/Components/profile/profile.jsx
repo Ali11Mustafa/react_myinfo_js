@@ -53,7 +53,7 @@ function profile() {
         </CustomTimeline>
 
         <br />
-        <div className="btn1" style={{ display: "flex" }}>
+        <div className="btn1">
           <Button text={"download cv"} icon={<GetAppIcon></GetAppIcon>} />
         </div>
       </div>
