@@ -9,7 +9,7 @@
   min-height: 0px !important;
 }
 .timelineself .timeline_firstitem1 {
-  min-height: 50px !important;
+  min-height: 80px !important;
 }
 
 .timelineself .MuiTimelineConnector-root {
@@ -50,10 +50,10 @@
 }
 
 .profile_information {
-  display: flex !important;
-  justify-content: center;
+  top: 0;
+  left: 0;
+  margin: -60px 10px 30px;
 }
-
 .sp1 {
   color: black;
   font-size: 13.5px;
