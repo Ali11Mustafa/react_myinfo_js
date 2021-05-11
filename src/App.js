@@ -2,6 +2,7 @@ import { Container, Grid } from "@material-ui/core";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import {} from "react-router-dom";
 import "./App.css";
+import "./index.css";
 import Header from "./Components/header/header.jsx";
 import Resume from "./pages/resume/resume";
 import Footer from "./Components/footer/footer";
@@ -9,7 +10,6 @@ import Portfolio from "./pages/portfolio/portfolio";
 import Profile from "./Components/profile/profile";
 import { BrowserRouter } from "react-router-dom";
 import Video from "./Components/video/video.mp4";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

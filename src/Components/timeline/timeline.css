@@ -4,6 +4,9 @@
 .timelineself .timeline_header {
   padding-top: 7px;
 }
+.a {
+  margin-left: 12px;
+}
 
 .timelineself .timeline_firstitem {
   min-height: 0px !important;
@@ -48,24 +51,14 @@
   padding-top: 0px !important;
   min-height: 0px;
 }
-.a {
-  margin-left: 12px;
-}
 
 .profile_information {
   top: 0;
   left: 0;
   margin: -60px 10px 30px;
+  margin-left: 220px;
+  margin-top: -10px;
 }
-.timelineself {
-  text-align: center;
-  align-items: center;
-}
-.timeline_firstitem1 {
-  text-align: center;
-  align-items: center;
-}
-
 .sp1 {
   color: black;
   font-size: 13.5px;

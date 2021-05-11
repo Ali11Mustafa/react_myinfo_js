@@ -7,7 +7,7 @@ import TimelineDot from "@material-ui/lab/TimelineDot";
 import Data from "../../utilites/data";
 import Timeline from "@material-ui/lab/Timeline";
 import WorkIcon from "@material-ui/icons/Work";
-
+import "../../App.css";
 import "./timeline.css";
 import { Typography } from "@material-ui/core";
 
@@ -147,7 +147,7 @@ export const Custom = ({ title, icon }) => {
           </Typography>
         </TimelineContent>
       </TimelineItem>
-      <TimelineItem className="a">
+      <TimelineItem>
         <TimelineSeparator>
           <TimelineDot></TimelineDot>
           <TimelineConnector />
@@ -164,7 +164,7 @@ export const Custom = ({ title, icon }) => {
           </Typography>
         </TimelineContent>
       </TimelineItem>
-      <TimelineItem className="a">
+      <TimelineItem>
         <TimelineSeparator>
           <TimelineDot></TimelineDot>
           <TimelineConnector />
