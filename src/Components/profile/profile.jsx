@@ -53,7 +53,7 @@ function profile() {
         <br />
         <div className="btn1">
           <a
-            href="https://www.canva.com/design/DAEdHnRamMU/HULSYWV9S6y5GAwRe6lpqg/edit"
+            href="https://drive.google.com/file/d/1DGbM7p_mrOYaSY7kQC-AuHte2ZsO3ZXm/view?usp=sharing"
             className="butona"
           >
             <Button text={"Resume"} icon={<GetAppIcon></GetAppIcon>} />
