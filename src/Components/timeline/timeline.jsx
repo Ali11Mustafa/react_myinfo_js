@@ -7,7 +7,6 @@ import TimelineDot from "@material-ui/lab/TimelineDot";
 import Data from "../../utilites/data";
 import Timeline from "@material-ui/lab/Timeline";
 import WorkIcon from "@material-ui/icons/Work";
-import "../../App.css";
 import "./timeline.css";
 import { Typography } from "@material-ui/core";
 
@@ -32,7 +31,7 @@ const timeline = ({ title, icon, Children }) => {
 
           <TimelineContent>
             <Typography variant="h6" className="timeline_header">
-              <span className="sp1">{"name: "}</span>
+              <span className="sp1">{"Name: "}</span>
               <span className="sp2">{Data.name}</span>
             </Typography>
           </TimelineContent>
@@ -45,7 +44,7 @@ const timeline = ({ title, icon, Children }) => {
 
           <TimelineContent className="TimelineContent">
             <Typography variant="h6" className="timeline_header">
-              <span className="sp1">{"title: "}</span>
+              <span className="sp1">{"Title: "}</span>
               <span className="sp2">{Data.title}</span>
             </Typography>{" "}
           </TimelineContent>
@@ -59,7 +58,7 @@ const timeline = ({ title, icon, Children }) => {
           <TimelineContent>
             <Typography variant="h6" className="timeline_header">
               <span className="sp1">
-                {"email: "}
+                {"Email: "}
                 <span className="sp2">{Data.email}</span>
               </span>
             </Typography>{" "}
@@ -73,7 +72,7 @@ const timeline = ({ title, icon, Children }) => {
 
           <TimelineContent>
             <Typography variant="h6" className="timeline_header">
-              <span className="sp1">{"phone: "}</span>
+              <span className="sp1">{"Phone: "}</span>
               <span className="sp2">{Data.phone}</span>
             </Typography>{" "}
           </TimelineContent>

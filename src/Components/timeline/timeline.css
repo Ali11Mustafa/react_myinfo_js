@@ -65,16 +65,18 @@
   left: 0;
   margin-top: -10px;
 }
+.timeline_firstitem1 {
+  align-items: center;
+  text-align: center;
+}
 .sp1 {
-  color: black;
-  font-size: 13.5px;
-  font-weight: 200;
-  font-family: monospace;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .sp2 {
   font-weight: 400 !important;
-  font-size: 13.5px;
+  font-size: 16px;
   color: #787878;
   line-height: 24px !important;
   text-decoration: none;
