@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -77,11 +76,12 @@
   bottom: 0;
   opacity: 0.4;
   left: 0;
-  background-color: var(--myc);
 }
 .aboutme {
   color: darkslategrey;
   font: smaller;
   line-height: 92px;
   white-space: pre-line;
+}
+.timeline-header {
 }

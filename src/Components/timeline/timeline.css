@@ -4,6 +4,9 @@
 .timelineself .timeline_header {
   padding-top: 7px;
 }
+.edu {
+  background-color: aqua;
+}
 .a {
   margin-left: 12px;
 }
@@ -22,6 +25,11 @@
   display: none;
 }
 .timelineself .timeline_dot_header {
+  color: black !important;
+  background-color: #05a18d !important;
+  font-size: small !important;
+}
+.timelineself .timeline_dot_header1 {
   color: black !important;
   background-color: #05a18d !important;
   font-size: small !important;

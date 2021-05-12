@@ -17,7 +17,7 @@ import im5 from "../assests/images/Screenshot 2021-05-12 020405.png";
 
 export default {
   name: "Ali",
-  title: "Full stack devloperr",
+  title: "Front end web developer",
   birthday: "06th may 2000",
   email: "ali.00622274@gmail",
   address: "iraq/erbil",
@@ -117,7 +117,7 @@ export default {
       descroption: ["sql", "mangodb", "mysql", "oracle"],
     },
     {
-      title: "source control",
+      title: "Source Control",
       descroption: ["Git", "Github"],
     },
   ],
@@ -173,7 +173,7 @@ export default {
       image: im5,
       title: "Hangman game",
       description: "Hangman game in react js, have a look and give a shot",
-      caption: "Hangman game in react js, have a look and give a shot"",
+      caption: "Hangman game in react js, have a look and give a shot",
 
       links: [
         { link: "https://hangmangamebyali.netlify.app/", icon: <HttpIcon /> },

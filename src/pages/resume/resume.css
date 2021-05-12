@@ -19,7 +19,7 @@
   line-height: 18px;
 }
 .skill .skil-description .timeline_dot {
-  border-color: var(--myc) !important;
+  border-color: #05a18d !important;
   padding: 2px !important;
   margin-right: 5px !important;
 }

@@ -20,22 +20,21 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Video from "../../Components/video/video.mp4";
+import "../../App.css";
 
 export default function Resume() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div>
+    <div className="body">
       <Grid container className="section pb-45">
         <Grid item className="section_title mb-30">
           <span></span>
           <h6 className="section_title_text">About me</h6>
         </Grid>
         <Grid item xs={12} data-aos="zoom-in">
-          <Typography varient="body" className="aboutme">
-            {Data.about}
-          </Typography>
+          <Typography variant="h">{Data.about}</Typography>
         </Grid>
       </Grid>
 
@@ -59,14 +58,18 @@ export default function Resume() {
         </Grid>
       </Grid>
 
-      <Grid container className="section graybg pb-45 p-50">
+      <Grid container className="section  pb-45 p-50">
         <Grid item xs={12}>
-          <h6 className="section_title_text">skills</h6>
-
+          <Grid item>
+            <Grid item className="section_title mb-30">
+              <span></span>
+              <h6 className="section_title_text">My Skills</h6>
+            </Grid>
+          </Grid>
           <Grid container justify="space-between" spacing={3}>
             {Data.skills.map((skils) => (
               <Grid item xs={12} sm={6} md={3}>
-                <Paper elevation={0} className="skill">
+                <Grid className="skill">
                   <Typography className="skill_title">{skils.title}</Typography>
                   {skils.descroption.map((element) => (
                     <Typography varient="body2" className="skil-description">
@@ -77,7 +80,7 @@ export default function Resume() {
                       {element}
                     </Typography>
                   ))}
-                </Paper>
+                </Grid>
               </Grid>
             ))}
           </Grid>
