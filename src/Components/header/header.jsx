@@ -35,7 +35,7 @@ function Header(props) {
             to="/"
             className={pathname == "/" ? "header_link_active" : "header_link"}
           >
-            profile
+            Profile
           </Nav.Link>
           <Nav.Link
             as={NavLink}
@@ -54,7 +54,7 @@ function Header(props) {
               pathname == "/portfolio" ? "header_link_active" : "header_link"
             }
           >
-            projects
+            Projects
           </Nav.Link>
         </Nav>
         <div className="header_right">
