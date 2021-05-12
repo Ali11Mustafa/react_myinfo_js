@@ -19,12 +19,11 @@ import CustomButton from "../../Components/button/button";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Video from "../../Components/video/video.mp4";
 import "../../App.css";
 
 export default function Resume() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
   return (
     <div className="body">
@@ -33,7 +32,7 @@ export default function Resume() {
           <span></span>
           <h6 className="section_title_text">About me</h6>
         </Grid>
-        <Grid item xs={12} data-aos="zoom-in">
+        <Grid item xs={12} data-aos="fade-down">
           <Typography variant="h">{Data.about}</Typography>
         </Grid>
       </Grid>
@@ -45,10 +44,10 @@ export default function Resume() {
         </Grid>
         <Grid item xs={12}>
           <Grid container>
-            <Grid item sm={12} md={6} data-aos="zoom-in">
+            <Grid item sm={12} md={6} data-aos="fade-right">
               <Custom icon={<WorkIcon></WorkIcon>} title=" Experince"></Custom>
             </Grid>
-            <Grid item sm={12} md={6} data-aos="fade-right">
+            <Grid item sm={12} md={6} data-aos="fade-left">
               <Custom1
                 icon={<SchoolIcon></SchoolIcon>}
                 title="Education"
@@ -66,7 +65,12 @@ export default function Resume() {
               <h6 className="section_title_text">My Skills</h6>
             </Grid>
           </Grid>
-          <Grid container justify="space-between" spacing={3}>
+          <Grid
+            container
+            justify="space-between"
+            data-aos="zoom-in"
+            spacing={3}
+          >
             {Data.skills.map((skils) => (
               <Grid item xs={12} sm={6} md={3}>
                 <Grid className="skill">
@@ -113,7 +117,7 @@ export default function Resume() {
                 ></TextField>
               </Grid>
               <Grid item xs={12}>
-                <CustomButton text="submit"></CustomButton>
+                <CustomButton text="submit" href="#"></CustomButton>
               </Grid>
             </Grid>
           </Grid>

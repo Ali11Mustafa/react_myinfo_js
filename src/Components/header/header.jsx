@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Link, NavLink, withRouter } from "react-router-dom";
-import im from "./hi.png";
+import im from "../../assests/images/hi.png";
 
 import {
   Navbar,

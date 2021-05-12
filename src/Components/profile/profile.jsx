@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import "./profile.css";
-import im from "./undraw_startup_life_2du2.svg";
+import im from "../../assests/images/undraw_startup_life_2du2.svg";
 import CustomTimeline, { CustomTimeline1 } from "../timeline/timeline";
 import Data from "../../utilites/data";
 import PersonIcon from "@material-ui/icons/EmojiEmotionsSharp";
@@ -52,7 +52,12 @@ function profile() {
 
         <br />
         <div className="btn1">
-          <Button text={"Resume"} icon={<GetAppIcon></GetAppIcon>} />
+          <a
+            href="https://www.canva.com/design/DAEdHnRamMU/HULSYWV9S6y5GAwRe6lpqg/edit"
+            className="butona"
+          >
+            <Button text={"Resume"} icon={<GetAppIcon></GetAppIcon>} />
+          </a>
         </div>
       </div>
       <div />
