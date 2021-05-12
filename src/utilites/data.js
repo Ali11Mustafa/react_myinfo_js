@@ -13,6 +13,7 @@ import im from "../assests/images/Screenshot 2021-05-11 214142.png";
 import im2 from "../assests/images/Screenshot 2021-05-11 221205.png";
 import im3 from "../assests/images/Screenshot 2021-05-11 221908.png";
 import im4 from "../assests/images/pic.png";
+import im5 from "../assests/images/Screenshot 2021-05-12 020405.png";
 
 export default {
   name: "Ali",
@@ -160,7 +161,8 @@ export default {
       image: im3,
 
       title: "wordpress website",
-      description: "this is my portfolio",
+      description:
+        "developing user interface of etikmart webiste and fix some bugs",
       caption:
         "developing user interface of etikmart webiste and fix some bugs",
 
@@ -168,9 +170,25 @@ export default {
     },
     {
       tag: "java1",
+      image: im5,
+      title: "Hangman game",
+      description: "Hangman using react js, give it a shot a try it",
+      caption: "Hangman using react js, give it a shot a try it",
+
+      links: [
+        { link: "https://hangmangamebyali.netlify.app/", icon: <HttpIcon /> },
+        {
+          link: "https://github.com/Ali-mustafa8/Hangman",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "java1",
       image: im4,
-      title: "project4",
-      description: "this is my portfolio",
+      title: "swimming pool booking system",
+      description:
+        "koya university swimmng pool booking system in php and mysql",
       caption: "koya university swimmng pool booking system in php and mysql",
 
       links: [],
