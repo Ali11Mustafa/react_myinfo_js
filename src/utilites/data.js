@@ -172,8 +172,8 @@ export default {
       tag: "java1",
       image: im5,
       title: "Hangman game",
-      description: "Hangman using react js, give it a shot a try it",
-      caption: "Hangman using react js, give it a shot a try it",
+      description: "Hangman game in react js, have a look and give a shot",
+      caption: "Hangman game in react js, have a look and give a shot"",
 
       links: [
         { link: "https://hangmangamebyali.netlify.app/", icon: <HttpIcon /> },
