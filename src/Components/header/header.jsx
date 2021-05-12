@@ -54,7 +54,7 @@ function Header(props) {
               pathname == "/portfolio" ? "header_link_active" : "header_link"
             }
           >
-            portfolio
+            projects
           </Nav.Link>
         </Nav>
         <div className="header_right">

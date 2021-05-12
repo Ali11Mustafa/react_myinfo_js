@@ -16,11 +16,11 @@ import im4 from "../assests/images/pic.png";
 import im5 from "../assests/images/Screenshot 2021-05-12 020405.png";
 
 export default {
-  name: "Ali",
+  name: "Ali Mustafa",
   title: "Front end web developer",
   birthday: "06th may 2000",
   email: "ali.00622274@gmail",
-  address: "iraq/erbil",
+  address: "erbil-iraq",
   phone: "+96407804827065",
   facebook:
     "https://www.facebook.com/?stype=lo&jlou=Afd6Yjt9y0ae7nRXjNBaJcuqGCRfN_c1n9I-nAicCMp7cDGWmGrb1ZQ1TIl6bRusgBfhir8S9QUIvOYZdU-4zX6JGVxrzUXZ6lUg95iiAoAnoQ&smuh=35757&lh=Ac_sKEW59mXyOCZOtJ0",
@@ -110,11 +110,14 @@ export default {
         "javascript",
         "React js",
         "material ui",
+        "php",
+        "java",
+        "jquery",
       ],
     },
     {
       title: "Database",
-      descroption: ["sql", "mangodb", "mysql", "oracle"],
+      descroption: ["sql", "firebase", "mysql", "oracle"],
     },
     {
       title: "Source Control",
