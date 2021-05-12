@@ -7,6 +7,9 @@
 .edu {
   background-color: aqua;
 }
+.a {
+  margin-left: 12px;
+}
 
 .timelineself .timeline_firstitem {
   min-height: 0px !important;
@@ -62,21 +65,20 @@
   left: 0;
   margin-top: -10px;
 }
-.timeline_firstitem1 {
-  align-items: center;
-  text-align: center;
-}
+
 .sp1 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .sp2 {
-  font-weight: 400 !important;
-  font-size: 16px;
+  font-weight: 200 !important;
+  font-size: 15px;
   color: #787878;
   line-height: 24px !important;
   text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
 }
 .work {
   font-weight: 800;
