@@ -31,8 +31,10 @@
   margin-bottom: -5px;
 }
 .profile_name {
+  background-color: #0bbda5;
   width: auto;
   border-radius: 2px;
+  text-align: center;
 }
 .PersonIcon {
   color: white;

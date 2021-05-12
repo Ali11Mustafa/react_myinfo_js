@@ -36,12 +36,12 @@ function profile() {
     <div className="profile-container-shadow">
       <div className="profile_name">
         <Typography className="name">{"I am Ali✋"}</Typography>
-        <Typography className="title">{"web devloper💻"}</Typography>
+        <Typography className="title">{"Front end web developer💻"}</Typography>
       </div>
       <img className="profile_image img-fluid" src={im} alt=""></img>
       <div className="profile_informati">
         <CustomTimeline
-          className="a"
+          className="b"
           icon={<PersonIcon className="PersonIcon" />}
           title={Data.title}
         >
@@ -52,7 +52,7 @@ function profile() {
 
         <br />
         <div className="btn1">
-          <Button text={"download cv"} icon={<GetAppIcon></GetAppIcon>} />
+          <Button text={"Resume"} icon={<GetAppIcon></GetAppIcon>} />
         </div>
       </div>
       <div />
