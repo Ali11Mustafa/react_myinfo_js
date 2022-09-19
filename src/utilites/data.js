@@ -104,20 +104,22 @@ export default {
     {
       title: "Front-end",
       descroption: [
-        "HTML",
-        "CSS",
+        "HTML5",
+        "CSS3",
         "Bootstrap",
         "javascript",
+        "ES6",
         "React js",
         "material ui",
-        "php",
-        "java",
-        "jquery",
+        "Tailwind css",
+        "Redux",
+        "Redux toolkit",
+        
       ],
     },
     {
       title: "Database",
-      descroption: ["sql", "firebase", "mysql", "oracle"],
+      descroption: ["sql", "firebase", "mysql"],
     },
     {
       title: "Source Control",
