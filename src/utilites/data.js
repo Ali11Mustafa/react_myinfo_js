@@ -47,7 +47,7 @@ export default {
     },
   },
   about:
-    "I’m Ali Mustafa, undergraduate college student from koya university currently studying software engineering with big interest in software development to make impact on what I work on and always look for opportunities to take my skills to the next level.",
+    "Enthusiastic, Self-driven, and detail-oriented software Engineer with deep ambition and drive to develop software solutions on time and high standards and alway",
   experines: [
     {
       title: "Re:coded",
