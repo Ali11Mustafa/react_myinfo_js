@@ -70,7 +70,7 @@ export default {
     {
       title: "koya university",
       data: "2018-2022",
-      desciption: "Doing my bachelor’s degree in software engineering ",
+      desciption: "bachelor degree in software engineering ",
     },
     {
       title: "bnari handren",
