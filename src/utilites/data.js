@@ -52,13 +52,13 @@ export default {
     {
       title: "Re:coded",
       desciption:
-        "More than four months in studying react js and implementing all the concepts through a capstone project in agile environment.",
+        "more than four months of intensive project-based learning immersive coding, with a simulated client project",
     },
     {
       title: "gaza sky for geeks",
 
       desciption:
-        "Freelancer training for youth people and prepare them for digital economy.",
+        "A 3-month mentorship program that was designed to teach a broad spectrum of talents how to become successful online freelancers. Through sessions focusing on building a competitive online freelancing profile, social media marketing, and networking.",
     },
     {
       title: "English languages translator. ",
@@ -69,7 +69,7 @@ export default {
   Education: [
     {
       title: "koya university",
-      data: "2018-present",
+      data: "2018-2022",
       desciption: "Doing my bachelor’s degree in software engineering ",
     },
     {
