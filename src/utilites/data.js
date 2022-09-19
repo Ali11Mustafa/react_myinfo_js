@@ -110,10 +110,11 @@ export default {
         "javascript",
         "ES6",
         "React js",
-        "material ui",
-        "Tailwind css",
         "Redux",
         "Redux toolkit",
+        "material ui",
+        "Tailwind css",
+        
         
       ],
     },
