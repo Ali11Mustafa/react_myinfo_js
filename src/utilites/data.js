@@ -47,7 +47,7 @@ export default {
     },
   },
   about:
-    "Enthusiastic, Self-driven, and detail-oriented software Engineer with deep ambition and drive to develop software solutions on time and high standards and alway",
+    "Enthusiastic, Self-driven, and detail-oriented software Engineer with deep ambition and drive to develop software solutions on time and high standards.",
   experines: [
     {
       title: "Re:coded",
