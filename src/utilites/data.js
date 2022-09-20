@@ -138,7 +138,7 @@ export default {
         "Paw-five which is an online, searchable database of pets who need homes in react js and firebase",
       links: [
         {
-          link: "https://paw-five.ml/ ",
+          link: "https://paw-five.netlify.app/ ",
           icon: <HttpIcon />,
         },
         {
