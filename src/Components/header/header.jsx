@@ -20,7 +20,8 @@ import "./header.css";
 function Header(props) {
   const pathname = props?.location?.pathname;
   return (
-    <Navbar className="header" expand="lg" sticky="top">
+    //expand="lg" 
+    <Navbar className="header" sticky="top">
       <Nav.Link as={NavLink} to="/" className="header_navlink">
         <Navbar.Brand href="#home" className="header_home">
           <img src={im} className="im" />
