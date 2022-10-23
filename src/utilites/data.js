@@ -71,7 +71,7 @@ export default {
         "Working as kurdish language evaluator for kurdish speech recognition NLP project ",
     },
     {
-      title: "gaza sky for geeks",
+      title: "Mercy Corps",
       data: "July 2021-Sept 2021",
       desciption:
         "A 3-month mentorship program that was designed to teach a broad spectrum of talents how to become successful online freelancers. Through sessions focusing on building a competitive online freelancing profile, social media marketing, and networking.",
