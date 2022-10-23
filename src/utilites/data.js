@@ -11,6 +11,9 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 import HttpIcon from "@material-ui/icons/Http";
 import im from "../assests/images/Screenshot 2021-05-11 214142.png";
 import im2 from "../assests/images/Screenshot 2021-05-11 221205.png";
+import im22 from "../assests/images/im2.jpg";
+import im222 from "../assests/images/chatbot.jpg";
+
 import im3 from "../assests/images/Screenshot 2021-05-11 221908.png";
 import im4 from "../assests/images/pic.png";
 import im5 from "../assests/images/Screenshot 2021-05-12 020405.png";
@@ -50,16 +53,30 @@ export default {
     "Enthusiastic, Self-driven, and detail-oriented software Engineer with deep ambition and drive to develop software solutions on time and high standards.",
   experines: [
     {
-      title: "Re:coded",
+      title: "KakonSoft-Software developer",
+      data: "Jun 2021-Dec 2021",
+      desciption:
+        "Full time front end web developer at kakonSoft based in Erbil",
+    },
+    {
+      title: "Re:coded-React js Bootcamp",
+      data: "Jan 2021-May 2021",
       desciption:
         "more than four months of intensive project-based learning immersive coding, with a simulated client project",
     },
     {
+      title: "TransPerfect-kurdish language speech recognition data classification",
+      data: "Jun 2022-Sept 2022",
+      desciption:
+        "Working as kurdish language evaluator for kurdish speech recognition NLP project ",
+    },
+    {
       title: "gaza sky for geeks",
-
+      data: "July 2021-Sept 2021",
       desciption:
         "A 3-month mentorship program that was designed to teach a broad spectrum of talents how to become successful online freelancers. Through sessions focusing on building a competitive online freelancing profile, social media marketing, and networking.",
     },
+   
     {
       title: "English languages translator. ",
       desciption:
@@ -70,7 +87,7 @@ export default {
     {
       title: "koya university",
       data: "2018-2022",
-      desciption: "bachelor degree in software engineering ",
+      desciption: "BSc degree in software engineering ",
     },
     {
       title: "bnari handren",
@@ -149,17 +166,26 @@ export default {
     },
     {
       tag: "javascript",
-      image: im2,
-      title: "dyanmic clock in javascript",
-      caption: "a very dynamic clack using vanilla javascript and easiljs   ",
+      image: im22,
+      title: "Hersh car company website",
+      caption: "Developing the main webiste of Hersh car compan",
 
-      description: "a very dynamic clack using vanilla javascript and easiljs ",
+      description: "developing and design a complete dynamic webiste for hershacar company",
       links: [
-        { link: "https://dynamic-clockbyali.netlify.app/", icon: <HttpIcon /> },
-        {
-          link: "https://github.com/Ali-mustafa8/dynamiclock/blob/main/index.html",
-          icon: <GitHubIcon />,
-        },
+        { link: "https://www.hershcompany.com/", icon: <HttpIcon /> },
+        
+      ],
+    },
+    {
+      tag: "javascript",
+      image: im222,
+      title: "Online reception chatbot system for first year students at koya university",
+      caption: "Graduation project includes developing a chatbot system using Natural language processing techniques",
+
+      description: "a complete chatbot system for guding fresh students that includes more than 100 common questions that have been collected at koya university through a survey then desing questions based on the survey usnig python-flask for backend and AIML as database and frontend using HTML,CSS,javascriot them optimize the chatbot using spiral model validation ",
+      links: [
+        { link: "https://github.com/Muhammadkadhim/chatbot-web", icon: <GitHubIcon /> },
+        
       ],
     },
     {
@@ -173,6 +199,16 @@ export default {
         "developing user interface of etikmart webiste and fix some bugs",
 
       links: [{ link: "https://etikmart.com/", icon: <HttpIcon /> }],
+    },
+    {
+      tag: "java1",
+      image: im4,
+      title: "swimming pool booking system",
+      description:
+        "koya university swimmng pool booking system in php and mysql",
+      caption: "koya university swimmng pool booking system in php and mysql",
+
+      links: [],
     },
     {
       tag: "java1",
@@ -190,14 +226,23 @@ export default {
       ],
     },
     {
-      tag: "java1",
-      image: im4,
-      title: "swimming pool booking system",
-      description:
-        "koya university swimmng pool booking system in php and mysql",
-      caption: "koya university swimmng pool booking system in php and mysql",
+      tag: "javascript",
+      image: im2,
+      title: "dyanmic clock in javascript",
+      caption: "a very dynamic clack using vanilla javascript and easiljs   ",
 
-      links: [],
+      description: "a very dynamic clack using vanilla javascript and easiljs ",
+      links: [
+        { link: "https://dynamic-clockbyali.netlify.app/", icon: <HttpIcon /> },
+        {
+          link: "https://github.com/Ali-mustafa8/dynamiclock/blob/main/index.html",
+          icon: <GitHubIcon />,
+        },
+      ],
     },
+     
+   
+   
+  
   ],
 };

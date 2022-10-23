@@ -127,8 +127,7 @@ export const Custom = ({ title, icon }) => {
         <TimelineContent>
           <Typography variant="h" className="timeline-header">
             <Typography>{Data.experines[0].title}</Typography>
-            <br></br>
-
+          <Typography>{Data.experines[0].data}</Typography>  
             {Data.experines[0].desciption}
           </Typography>
         </TimelineContent>
@@ -142,9 +141,8 @@ export const Custom = ({ title, icon }) => {
           <Typography> {Data.experines[1].title}</Typography>
 
           <Typography variant="h" className="timeline-header">
-            <br></br>
+          <Typography>{Data.experines[1].data}</Typography>  
 
-            {Data.experines[1].data}
             {Data.experines[1].desciption}
           </Typography>
         </TimelineContent>
@@ -157,13 +155,33 @@ export const Custom = ({ title, icon }) => {
         <TimelineContent>
           <Typography className="timeline-header">
             {Data.experines[2].title}
+            <br/>
+            {Data.experines[2].data}
+
           </Typography>
 
           <Typography variant="h" className="timeline-header">
-            <br></br>
             {Data.experines[2].data}
-
             {Data.experines[2].desciption}
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem className="a">
+        <TimelineSeparator>
+          <TimelineDot className="timeline_dot_header"></TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Typography className="timeline-header">
+            {Data.experines[3].title}
+            <br/>
+            {Data.experines[3].data}
+
+          </Typography>
+
+          <Typography variant="h" className="timeline-header">
+            {Data.experines[3].data}
+            {Data.experines[3].desciption}
           </Typography>
         </TimelineContent>
       </TimelineItem>
